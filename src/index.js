@@ -3,9 +3,7 @@ let mk = require('markdown-it-katex');
 
 md.use(mk);
 
-var text = `Dies
-ist ein [Markdown](https://daringfireball.net/projects/markdown/)-Dokument 
-mit der Möglichkeit, mathematische Ausdrücke einzugeben.
+var text = `Dies ist ein [Markdown](https://daringfireball.net/projects/markdown/)-Dokument mit der Möglichkeit, mathematische Ausdrücke einzugeben.
 
 Die Vorschau folgt der CommonMark-Spezifikation. Alle mathematischen Ausdrücke nutzen die LaTeX-Syntax.
 
